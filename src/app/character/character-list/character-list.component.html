@@ -1,0 +1,5 @@
+<div class="div">
+  <div *ngFor="let person of people">
+    <app-charcard  [people] = "person" [routerLink]="['/character/:id']"></app-charcard>
+  </div>
+</div>

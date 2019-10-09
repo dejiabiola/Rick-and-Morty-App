@@ -1,0 +1,8 @@
+<div draggable="false">
+  <img [src]="people.image" alt="character">
+  <p [ngStyle] ="{'font-weight':'bold'}">{{ people.name | lowercase }}</p>
+
+  <p>Origin: {{ people.origin.name }}</p>
+  <p>{{ people.gender }}</p>
+  <p>{{ people.status }}</p>
+</div>
