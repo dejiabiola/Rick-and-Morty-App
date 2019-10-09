@@ -1,5 +1,13 @@
 # Rickandmorty
 
+This is a simple angular application which implements the rickandmorty api to render characters of the popular show on the screen. Angular tools like router, http, pipes and so on was utilised to create this app. It is entirely open source.
+
+To run it or improve upon it, 
+
+1. Fork this repo.
+2. Clone it to your local machine.
+3. Run 'ng serve' using the terminal.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
 ## Development server
